@@ -4,6 +4,9 @@ Generate perfect Vyper code headers every time.
 
 Forked from [transmissions11/headers](https://github.com/transmissions11/headers/tree/master)
 
+> [!Note]
+> [There is also a version of this built in python (to be installed with `pip`)](https://pypi.org/project/vheader/)
+
 ## Build
 
 You need Rust and Cargo installed on your machine. See the installation guide
