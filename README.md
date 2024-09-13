@@ -1,5 +1,8 @@
 # vheader
 
+> [!Important]
+> I found out after that [Transmissions11 also made one for Vyper.](https://github.com/transmissions11/headers-vy)
+
 Generate perfect Vyper code headers every time.
 
 Forked from [transmissions11/headers](https://github.com/transmissions11/headers/tree/master)
