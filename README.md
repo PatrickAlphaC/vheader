@@ -18,13 +18,13 @@ cargo install --path .
 ## Usage
 
 ```sh
-./vheaders "testing 123"
+vheader "external functions"
 ```
 
-```sh
-/*//////////////////////////////////////////////////////////////
-                           TESTING 123
-//////////////////////////////////////////////////////////////*/
+```python
+# --------------------------------------------------------------
+#                       EXTERNAL FUNCTIONS
+# --------------------------------------------------------------
 ```
 
 It will also copy the header to your clipboard automatically.
@@ -73,4 +73,5 @@ This will copy the generated header to your clipboard.
 
 ## Credits
 
-Inspired by virtualjpeg's [`blocky`](https://github.com/virtualjpeg/blocky).
+- Inspired by virtualjpeg's [`blocky`](https://github.com/virtualjpeg/blocky).
+- Forked from [transmissions11 headers](https://github.com/transmissions11/headers)
