@@ -1,6 +1,8 @@
-# headers
+# vheader
 
-Generate perfect code headers every time.
+Generate perfect Vyper code headers every time.
+
+Forked from [transmissions11/headers](https://github.com/transmissions11/headers/tree/master)
 
 ## Build
 
@@ -16,7 +18,7 @@ cargo install --path .
 ## Usage
 
 ```sh
-λ ./headers "testing 123"
+./vheaders "testing 123"
 ```
 
 ```sh
@@ -38,7 +40,7 @@ Set your global [`tasks.json`](https://stackoverflow.com/questions/41046494/maki
     {
       "label": "Generate Header",
       "type": "shell",
-      "command": "headers ${input:header}",
+      "command": "vheader ${input:header}",
       "presentation": {
         "reveal": "never"
       },
